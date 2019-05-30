@@ -87,6 +87,16 @@ a:link,a:visited,a:hover,a:active{
     float: left;
     width: 660px;
 }
+.hot-topic{
+    display: block;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 4px -4px rgba(0,0,0,0.15);
+    transition: opacity 0.15s;
+    height: 300px;
+}
+.hot-topic:hover{
+    opacity: 0.85;
+}
 
 .sidemenu{
     float: right;
