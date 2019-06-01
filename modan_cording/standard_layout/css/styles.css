@@ -152,6 +152,8 @@ a:link,a:visited,a:hover,a:active{
     line-height: 1;
 }
 
+/*NEWS*/
+
 .scroll-list{
     max-height: 220px;
     overflow-y: auto;
@@ -202,6 +204,21 @@ a:link,a:visited,a:hover,a:active{
 }
 .scroll-list .category.news{
     background-color: #2c3c53;
+}
+
+/*ARTICLES*/
+.article-box{
+    display: block;
+    width: 315px;
+    margin-bottom: 30px;
+}
+
+.article-box:nth-of-type(odd){
+    float: left;
+}
+
+.article-box:nth-of-type(even){
+    float: right;
 }
 
 .sidemenu{
