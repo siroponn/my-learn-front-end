@@ -27,6 +27,14 @@ a:link,a:visited,a:hover,a:active{
     display: none;
 }
 
+/*NEWSとSIDEMENU見出し共通スタイル*/
+.heading{
+    padding: 10px 12px;
+    background: url('../images/bg-slash.gif');
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+
 /*header*/
 
 .header{
