@@ -176,18 +176,32 @@ a:link,a:visited,a:hover,a:active{
     display: inline-block;
     width: 19%;
     font-size: 1.0rem;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 .scroll-list .category{
     display: inline-block;
     width: 8%;
     font-size: 1.0rem;
-
+    border-radius: 5px;
+    background-color: #d03c56;
+    color:#fff;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 16px;
 }
 .scroll-list .title{
     display: inline-block;
     width: 73%;
     padding-left: 15px;
     font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.scroll-list .category.news{
+    background-color: #2c3c53;
 }
 
 .sidemenu{
