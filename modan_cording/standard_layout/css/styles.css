@@ -272,6 +272,7 @@ a:link,a:visited,a:hover,a:active{
 .ranking{
     margin-bottom: 30px;
     list-style-type: none;
+    counter-reset: rank;
 }
 .ranking .ranking-item{
     margin-top: 15px;
@@ -304,7 +305,7 @@ a:link,a:visited,a:hover,a:active{
     display: inline-block;
     width: 18px;
     height: 18px;
-    margin: 0 10;
+    margin: 0 10px;
     border: 1px solid #ccc;
     color: #aaa;
     vertical-align: 20px;
@@ -314,6 +315,14 @@ a:link,a:visited,a:hover,a:active{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.ranking .order::before{
+    content: counter(rank);
+    counter-increment: rank;
+    display: inline-block;
+    font-size: 1.0rem;
+    transform: rotate(-45deg);
 }
 
 .ranking .ranking-item:nth-of-type(1) .order,
