@@ -89,7 +89,7 @@ a:link,a:visited,a:hover,a:active{
     border-color: #FFF100;
 }
 
-.item-breaktime
+.item-breaktime,
 .item-breaktime .category::before{
     border-color: #C1EFFF;
 }
